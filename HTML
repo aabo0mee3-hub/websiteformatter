@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtoRepo | Rapid Theme Assembler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ProtoRepo <span>v1.0</span></h1>
+        <p>Rapidly assemble client prototypes from web assets.</p>
+    </header>
+
+    <main>
+        <section id="input-hub">
+            <div class="card">
+                <h3>Add New Asset</h3>
+                <div class="input-group">
+                    <input type="text" id="asset-title" placeholder="Project/Theme Name">
+                    <input type="text" id="asset-url" placeholder="Paste URL (Link, Image, or CSS)">
+                    <select id="asset-type">
+                        <option value="link">Website Link</option>
+                        <option value="image">Image Asset</option>
+                        <option value="style">Style Reference</option>
+                    </select>
+                    <button id="add-btn">Add to Repository</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="repo-grid">
+            </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
